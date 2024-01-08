@@ -1,0 +1,24 @@
+<!-- index.html -->
+<html>
+    <head>
+        <!-- title tag : 웹사이트 제목 -->
+        <title>김민규의 블로그</title>
+        <!-- link tag : 현재 html 파일과 외부 리소스 사이의 관계를 정의 -->
+        <!-- index.html과 style.css가 동일 디렉도리에 위치해야 한다. -->
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <!-- body tag : 화면에 나오는 컨텐츠들 -->
+    <body>
+        <h1>김민규의 블로그에 오신 여러분을 환영합니다.</h1>
+        <!-- DOM Container(Root DOM Node) 추가하기 -->
+        <!-- Virtual DOM의 시작점 -->
+        <div id="root"></div> 
+        <!-- 리액트 가져오기(react & react dom) -->
+        <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+        <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+
+        <!-- 리액트 컴포넌트 가져오기 -->
+        <!-- 가져올 MyButtom 컴포넌트 연결 -->
+        <script src="MyButton.js"></script>
+    </body>
+</html>

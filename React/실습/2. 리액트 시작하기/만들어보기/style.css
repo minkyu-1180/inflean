@@ -1,0 +1,5 @@
+/* h1 태그에 다음과 같은 스타일 적용 */
+h1 {
+    color: green;
+    font-style: italic;
+}
